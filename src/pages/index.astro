@@ -1,0 +1,117 @@
+---
+import Header from "@/components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+import "@/styles/globals.css";
+---
+
+<Layout title="Frontend Mentor | PayAPI Website Challenge">
+  <Header />
+  <main class="">
+    <section class="flex justify-between items-center py-10 px-40">
+      <div class="mt-40">
+        <h1
+          class="font-normal text-7xl leading-[4.5rem] font-DM-Serif-Display tracking-[-0.03463rem] text-[#36536B] w-[34rem] h-[15rem]"
+        >
+          Start building with our APIs for absolutely free.
+        </h1>
+        <form
+          action=""
+          class="mt-6 flex justify-between w-[27rem] h-12 bg-[#FBFCFE] rounded-3xl"
+        >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="rounded-3xl placeholder:font-Public-Sans placeholder:text-[0.9375rem] placeholder:font-bold placeholder:leading-normal opacity-50 placeholder:pl-8"
+            placeholder="Enter email address"
+          />
+          <button
+            type="button"
+            class="block w-40 h-12 bg-[#ba4270] font-Public-Sans rounded-3xl text-[#FBFCFE] text-[0.9375rem] font-bold leading-normal tracking-[-0.00719rem]"
+            >Schedule a Demo</button
+          >
+        </form>
+        <h3
+          class="mt-7 text-[#6C8294] text-[0.9375rem] font-normal leading-normal ml-8"
+        >
+          Have any questions? <a href="/contact" class="font-bold">Contact Us</a
+          >
+        </h3>
+      </div>
+      <div class="">
+        <img
+          class="absolute top-[-200px] right-[-160px]"
+          src="/shared/desktop/bg-pattern-circle.svg"
+          alt="bg-pattern-circle"
+        />
+        <img
+          class="absolute top-[80px] right-[180px]"
+          src="/home/desktop/illustration-phone-mockup.svg"
+          alt="illustration-phone-mockup"
+        />
+      </div>
+    </section>
+    <section class="bg-[#1B262F] mt-16 py-24 px-40 flex gap-32 items-center">
+      <div>
+        <h2
+          class="text-[#FBFCFE] font-DM-Serif-Display text-5xl leading-[3.5rem] font-normal tracking-[-0.02306rem]"
+        >
+          Who we work with
+        </h2>
+        <p
+          class="mt-4 text-[#FBFCFE] font-normal font-Public-Sans text-[0.9375rem] leading-7 opacity-70 w-[27rem]"
+        >
+          Today, millions of people around the world have successfully connected
+          their accounts to apps they love using our API. We provide developers
+          with the tools they need to create easy and accessible experiences for
+          their users.
+        </p>
+        <div class="mt-8">
+          <a
+            href="/about"
+            class="text-[#FBFCFE] border-solid w-32 h-12 rounded-3xl flex justify-center items-center text-center bg-transparent border-white border font-Public-Sans text-[0.9375rem] font-bold leading-normal tracking-[-0.00719rem]"
+            >About Us</a
+          >
+        </div>
+      </div>
+      <div class="flex gap-14 justify-center items-center">
+        <div class="flex flex-col gap-14 items-center justify-center">
+          <img
+            class="w-32 h-[1.0625rem]"
+            src="/shared/desktop/tesla-white.svg"
+            alt="tesla-logo"
+          />
+          <img
+            class="w-32 h-[1.0625rem]"
+            src="/shared/desktop/oracle-white.svg"
+            alt="oracle-logo"
+          />
+        </div>
+        <div class="flex flex-col gap-14 items-center justify-center">
+          <img
+            class="w-36 h-[1.9375rem]"
+            src="/shared/desktop/microsoft-white.svg"
+            alt="microsoft-logo"
+          />
+          <img
+            class="w-24 h-[2.0625rem]"
+            src="/shared/desktop/google-white.svg"
+            alt="google-logo"
+          />
+        </div>
+        <div class="flex flex-col gap-14 items-center justify-center">
+          <img
+            class="w-32 h-[1.6875rem]"
+            src="/shared/desktop/hewlett-packard-white.svg"
+            alt="hewlett-packard-logo"
+          />
+          <img
+            class="w-32 h-[1.625rem]"
+            src="/shared/desktop/nvidia-white.svg"
+            alt="nvidia-logo"
+          />
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
